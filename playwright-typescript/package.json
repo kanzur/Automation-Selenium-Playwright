@@ -1,0 +1,30 @@
+{
+  "name": "playwright-typescript",
+  "version": "1.0.0",
+  "description": "Playwright TypeScript automation framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "test:debug": "playwright test --debug",
+    "report": "playwright show-report",
+    "install-browsers": "playwright install"
+  },
+  "keywords": [
+    "playwright",
+    "typescript",
+    "automation",
+    "testing"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.40.0",
+    "@types/node": "^20.19.9",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "xlsx": "^0.18.5"
+  }
+}
