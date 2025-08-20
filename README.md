@@ -111,7 +111,7 @@ npx playwright install
 ### Selenium
 
 - Run all tests: `mvn clean test`
-- Run tests by tag: Eg: `mvn test -Dcucumber.filter.tags="@login"`
+- Run tests by tag: Eg: `mvn test (Add the tag in TestRunnner.java)` or `mvn test -Dcucumber.filter.tags="@login"`
 - Run with specific browser: `mvn test -Dbrowser=chrome`
 
 ### Playwright
