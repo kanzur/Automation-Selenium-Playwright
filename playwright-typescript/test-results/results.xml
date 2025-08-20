@@ -1,0 +1,22 @@
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="29.815824">
+<testsuite name="login.spec.ts" timestamp="2025-08-20T06:24:09.184Z" hostname="chromium" tests="1" failures="0" skipped="0" time="21.628" errors="0">
+<testcase name="Login Data-Driven Tests › [@CT01][@login] Login with username: Admin" classname="login.spec.ts" time="21.628">
+<system-out>
+<![CDATA[Navigating to OrangeHRM login page
+Current URL after navigation: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+Attempting login with username: Admin
+Entering username: Admin
+Entering password: admin123
+Clicking login button
+Verifying login success...
+Current URL after login attempt: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+Login verification successful
+
+[[ATTACHMENT|login-Login-Data-Driven-Te-0d0ed-n-Login-with-username-Admin-chromium\test-finished-1.png]]
+
+[[ATTACHMENT|login-Login-Data-Driven-Te-0d0ed-n-Login-with-username-Admin-chromium\video.webm]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>

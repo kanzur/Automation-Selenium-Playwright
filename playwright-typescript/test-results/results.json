@@ -1,0 +1,171 @@
+{
+  "config": {
+    "configFile": "C:\\Users\\krihan\\Documents\\Automation-Selenium-Playwright\\playwright-typescript\\playwright.config.ts",
+    "rootDir": "C:/Users/krihan/Documents/Automation-Selenium-Playwright/playwright-typescript/tests/specs",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": "C:\\Users\\krihan\\Documents\\Automation-Selenium-Playwright\\playwright-typescript\\tests\\global-teardown.ts",
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "html",
+        {
+          "outputFolder": "playwright-report",
+          "open": "always"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "test-results/results.json"
+        }
+      ],
+      [
+        "junit",
+        {
+          "outputFile": "test-results/results.xml"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "C:/Users/krihan/Documents/Automation-Selenium-Playwright/playwright-typescript/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "C:/Users/krihan/Documents/Automation-Selenium-Playwright/playwright-typescript/tests/specs",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 60000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.54.2",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "login.spec.ts",
+      "file": "login.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Login Data-Driven Tests",
+          "file": "login.spec.ts",
+          "line": 48,
+          "column": 6,
+          "specs": [
+            {
+              "title": "[@CT01][@login] Login with username: Admin",
+              "ok": true,
+              "tags": [
+                "CT01][@login]"
+              ],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 21628,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Navigating to OrangeHRM login page\n"
+                        },
+                        {
+                          "text": "Current URL after navigation: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login\n"
+                        },
+                        {
+                          "text": "Attempting login with username: Admin\n"
+                        },
+                        {
+                          "text": "Entering username: Admin\n"
+                        },
+                        {
+                          "text": "Entering password: admin123\n"
+                        },
+                        {
+                          "text": "Clicking login button\n"
+                        },
+                        {
+                          "text": "Verifying login success...\n"
+                        },
+                        {
+                          "text": "Current URL after login attempt: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index\n"
+                        },
+                        {
+                          "text": "Login verification successful\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-08-20T06:24:12.652Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\krihan\\Documents\\Automation-Selenium-Playwright\\playwright-typescript\\test-results\\login-Login-Data-Driven-Te-0d0ed-n-Login-with-username-Admin-chromium\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\krihan\\Documents\\Automation-Selenium-Playwright\\playwright-typescript\\test-results\\login-Login-Data-Driven-Te-0d0ed-n-Login-with-username-Admin-chromium\\video.webm"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "41d3fd2474a19feb00a1-b9bbe4d5722d6b8f837a",
+              "file": "login.spec.ts",
+              "line": 50,
+              "column": 9
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2025-08-20T06:24:07.544Z",
+    "duration": 29815.824,
+    "expected": 1,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}
